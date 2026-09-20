@@ -927,5 +927,59 @@
     "prefix": "jqWrapInner",
     "body": "\\$(${1:selector}).wrapInner(\"<${2:wrappingElement}></${2:wrappingElement}>\");",
     "description": "Wrap an HTML structure around the content of each element in the set of matched elements."
+  },
+  "ready": {
+    "prefix": "ready",
+    "body": [
+      "\\$(document).ready(function () {",
+      "\t$0",
+      "});"
+    ],
+    "description": "Function to execute when the DOM is fully loaded."
+  },
+  "docready": {
+    "prefix": "docready",
+    "body": [
+      "\\$(document).ready(function () {",
+      "\t$0",
+      "});"
+    ],
+    "description": "Function to execute when the DOM is fully loaded."
+  },
+  "jqready": {
+    "prefix": "jqready",
+    "body": [
+      "\\$(document).ready(function () {",
+      "\t$0",
+      "});"
+    ],
+    "description": "Function to execute when the DOM is fully loaded."
+  },
+  "jqdocready": {
+    "prefix": "jqdocready",
+    "body": [
+      "\\$(document).ready(function () {",
+      "\t$0",
+      "});"
+    ],
+    "description": "Function to execute when the DOM is fully loaded."
+  },
+  "readyshort": {
+    "prefix": "readyshort",
+    "body": [
+      "\\$(function () {",
+      "\t$0",
+      "});"
+    ],
+    "description": "Function to execute when the DOM is fully loaded."
+  },
+  "jqreadyshort": {
+    "prefix": "jqreadyshort",
+    "body": [
+      "\\$(function () {",
+      "\t$0",
+      "});"
+    ],
+    "description": "Function to execute when the DOM is fully loaded."
   }
 }

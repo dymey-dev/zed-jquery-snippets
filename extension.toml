@@ -10,5 +10,6 @@ snippets = [
     "./snippets/typescript.json",
     "./snippets/tsx.json",
     "./snippets/html.json",
-    "./snippets/snippets.json"
+    "./snippets/snippets.json",
+    "./snippets/plaintext.json"
 ]
